@@ -19,8 +19,19 @@
   height: 200px;
 }
 /*Media Queries*/
-@media only screen and (max-width: 800px) {
+/*@media only screen and (max-width: 800px) {
   .red {
     background-color: blue;
+  }
+}*/
+
+@media only screen and (min-width: 375px) and (max-width: 500px){
+  .red {
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 768px){
+  .red {
+    background-color: gray;
   }
 }
