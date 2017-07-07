@@ -1,0 +1,26 @@
+.practice {
+  background-color: #e40007;
+  height: 400px;
+}
+/*.row {
+  background-color: blue;
+}*/
+.inner {
+  border: 1px solid #000;
+  background-color: #0000ff;
+  height: 200px;
+}
+.green {
+  background-color: green;
+  height: 200px;
+}
+.red {
+  background-color: red;
+  height: 200px;
+}
+/*Media Queries*/
+@media only screen and (max-width: 800px) {
+  .red {
+    background-color: blue;
+  }
+}
