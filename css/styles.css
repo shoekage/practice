@@ -1,3 +1,4 @@
+$('.dropdown-toggle').dropdown()
 .practice {
   background-color: #e40007;
   height: 400px;
@@ -25,7 +26,7 @@
   }
 }*/
 
-@media only screen and (min-width: 375px) and (max-width: 500px){
+/*@media only screen and (min-width: 375px) and (max-width: 500px){
   .red {
     background-color: yellow;
   }
@@ -34,8 +35,10 @@
   .red {
     background-color: gray;
   }
+}*/
+.btn-group {
+  position: relative;
 }
-
 .well {
   margin-top: 15px;
 }
